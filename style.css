@@ -1,0 +1,36 @@
+.hide {
+    display: none;
+}
+  
+
+.container{
+    text-align: center;
+     padding-top: 1rem;
+}
+.row{
+    background-color: #f3f3f3;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+body{
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li{
+    border: 1px solid;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 40%;
+    display: inline-block;
+    padding: 1rem 0 1rem;
+}
+
+ul{
+    list-style-type: none;
+   
+}
+
