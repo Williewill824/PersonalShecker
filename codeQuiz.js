@@ -69,7 +69,7 @@ function showHighScore() {
       high_scores = JSON.parse(high_scores);
     }
   
-    high_scores.push({ name: name, score: correctCount });
+    high_scores.push({ name: name, score: time });
   
     localStorage.setItem("scores", JSON.stringify(high_scores));
   
